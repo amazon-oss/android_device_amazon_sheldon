@@ -7,6 +7,16 @@
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    init.mt8695.rc \
+    init.mt8695.usb.rc \
+    init.connectivity.rc \
+    init.project.rc \
+    init.nvdata.rc \
+    fstab.mt8695 \
+    ueventd.mt8695.rc
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 28
 
