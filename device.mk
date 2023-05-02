@@ -15,6 +15,7 @@ PRODUCT_PACKAGES += \
     init.project.rc \
     init.nvdata.rc \
     fstab.mt8695 \
+    fstab.mt8695_ramdisk \
     ueventd.mt8695.rc
 
 # Shipping API level
