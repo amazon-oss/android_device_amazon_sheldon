@@ -48,6 +48,9 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
     android.hardware.bluetooth.a2dp@1.0.vendor
 
+# Camera
+PRODUCT_SUPPORTS_CAMERA := false
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-service \
