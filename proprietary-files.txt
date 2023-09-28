@@ -1,5 +1,44 @@
 # Unpinned blobs from sheldonp-user 7.0 PS7242 3515 amz-p,release-keys
 
+# Audio
+system/lib/fireos.hardware.avsync@1.0.so
+system/lib/libavsyncdapter.so
+system/lib/libaudiohwsync.so
+vendor/bin/avsyncservice
+vendor/bin/hw/fireos.hardware.localtime@1.0-service
+vendor/etc/init/avsyncservice.rc
+vendor/etc/init/fireos.hardware.localtime@1.0-service.rc
+vendor/lib/fireos.hardware.audio@2.0.so
+vendor/lib/fireos.hardware.audio@4.0.so
+vendor/lib/fireos.hardware.audiosignalprocessor@1.0.so
+vendor/lib/fireos.hardware.audiosignalprocessor@1.1.so
+vendor/lib/fireos.hardware.avsync@1.0.so
+vendor/lib/fireos.hardware.localtime@1.0.so
+vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so
+vendor/lib/hw/audio.btle.default.so
+vendor/lib/hw/audio.primary.mt8695.so
+vendor/lib/hw/audio.r_submix.mt8695.so
+vendor/lib/hw/fireos.hardware.audio@4.0-impl.so
+vendor/lib/hw/fireos.hardware.avsync@1.0-impl.so
+vendor/lib/libaudiocomponentengine_vendor.so
+vendor/lib/libaudiohalopen_vendor.so
+vendor/lib/libaudiomixer.so
+vendor/lib/libaudioresampler.so
+vendor/lib/libavsync.so
+vendor/lib/libavsyncwrapper.so
+vendor/lib/libblisrc32_vendor.so
+vendor/lib/libbwc.so
+vendor/lib/libcommon_time_client_vendor.so
+vendor/lib/liblatencybenchmarker_interface.so
+vendor/lib/liblatencybenchmarker_vendor.so
+vendor/lib/liblineartransform_vendor.so
+vendor/lib/libmediaextension_vendor.so
+vendor/lib/libmtkaudiospdif.so
+vendor/lib/libmtklimiter_vendor.so
+vendor/lib/libmtkshifter_vendor.so
+vendor/lib/libopuscodec.so
+vendor/lib/libvendoraudiospdif.so
+
 # Display
 vendor/firmware/rgx.fw.signed
 vendor/lib/egl/libEGL_POWERVR_ROGUE.so
@@ -29,6 +68,14 @@ vendor/lib/libmtkbufferqueue.so
 vendor/lib/libsrv_um.so
 vendor/lib/libtqvalidate.so
 vendor/lib/libusc.so
+
+# Dolby
+vendor/lib/hw/audio.primary.proxy.so
+vendor/lib/libaudiohwsyncbridge.so
+vendor/lib/libeac3dec.so
+vendor/lib/libms12.so
+vendor/lib/libstagefrightdolby.so
+vendor/lib/libstagefright_soft_eac3dec.so
 
 # Gatekeeper
 vendor/lib/hw/gatekeeper.mt8695.so
