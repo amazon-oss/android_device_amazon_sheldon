@@ -30,6 +30,10 @@ vendor/lib/libsrv_um.so
 vendor/lib/libtqvalidate.so
 vendor/lib/libusc.so
 
+# Gatekeeper
+vendor/lib/hw/gatekeeper.mt8695.so
+vendor/lib/hw/libSoftGatekeeper.so
+
 # Keymaster
 vendor/lib/hw/keystore.mt8695.so
 vendor/lib/libkmsetkey.so
