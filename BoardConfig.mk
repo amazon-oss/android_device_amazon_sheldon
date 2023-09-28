@@ -52,5 +52,8 @@ TARGET_KERNEL_ADDITIONAL_FLAGS := HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-l
 # Platform
 TARGET_BOARD_PLATFORM := mt8695
 
+# Verified Boot
+BOARD_AVB_ENABLE := false
+
 # Inherit the proprietary files
 include vendor/amazon/sheldon/BoardConfigVendor.mk
