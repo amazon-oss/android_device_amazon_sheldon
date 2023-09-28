@@ -132,47 +132,11 @@
 
         </module>
 
-        <!-- A2dp Audio HAL -->
-        <module name="a2dp" halVersion="2.0">
-            <mixPorts>
-                <mixPort name="a2dp_out" role="source">
-                    <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
-                         samplingRates="44100,48000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
-                </mixPort>
-                <mixPort name="a2dp_ms12" role="source" flags="AUDIO_OUTPUT_FLAG_DIRECT|AUDIO_OUTPUT_FLAG_COMPRESS_OFFLOAD|AUDIO_OUTPUT_FLAG_PROXY|AUDIO_OUTPUT_FLAG_NON_BLOCKING">
-                    <profile name=""/>
-                </mixPort>
-                <mixPort name="a2dp_ms12_hw_av_sync" role="source" flags="AUDIO_OUTPUT_FLAG_DIRECT|AUDIO_OUTPUT_FLAG_COMPRESS_OFFLOAD|AUDIO_OUTPUT_FLAG_HW_AV_SYNC|AUDIO_OUTPUT_FLAG_PROXY|AUDIO_OUTPUT_FLAG_NON_BLOCKING">
-                    <profile name=""/>
-                </mixPort>
-                <mixPort name="a2dp_in" role="sink">
-                    <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
-                             samplingRates="44100" channelMasks="AUDIO_CHANNEL_IN_STEREO"/>
-                </mixPort>
-            </mixPorts>
-            <devicePorts>
-                <!-- Output devices declaration, i.e. Sink DEVICE PORT -->
-                <devicePort tagName="A2DP-Out" type="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP" role="sink">
-                </devicePort>
-                <devicePort tagName="A2DP-Headphones-Out" type="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES" role="sink">
-                </devicePort>
-                <devicePort tagName="A2DP-Speaker-Out" type="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER" role="sink">
-                </devicePort>
-                <devicePort tagName="A2DP-In" type="AUDIO_DEVICE_IN_BLUETOOTH_A2DP" role="source">
-                </devicePort>
-            </devicePorts>
-            <!-- route declaration, i.e. list all available sources for a given sink -->
-            <routes>
-                <route type="mix" sink="A2DP-Out"
-                        sources="a2dp_out,a2dp_ms12,a2dp_ms12_hw_av_sync"/>
-                <route type="mix" sink="A2DP-Headphones-Out"
-                        sources="a2dp_out,a2dp_ms12,a2dp_ms12_hw_av_sync"/>
-                <route type="mix" sink="A2DP-Speaker-Out"
-                        sources="a2dp_out,a2dp_ms12,a2dp_ms12_hw_av_sync"/>
-                <route type="mix" sink="a2dp_in"
-                        sources="A2DP-In"/>
-            </routes>
-        </module>
+        <!-- A2dp In Audio HAL -->
+        <xi:include href="a2dp_in_audio_policy_configuration.xml"/>
+
+        <!-- Bluetooth Audio HAL -->
+        <xi:include href="bluetooth_audio_policy_configuration.xml"/>
 
         <!-- AOSP USB Audio HAL -->
         <xi:include href="usb_audio_policy_configuration.xml"/>
