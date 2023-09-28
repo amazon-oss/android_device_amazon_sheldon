@@ -77,6 +77,9 @@ TARGET_COPY_OUT_SYSTEM := system
 # Platform
 TARGET_BOARD_PLATFORM := mt8695
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt8695
 
