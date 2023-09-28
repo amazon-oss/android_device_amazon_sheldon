@@ -52,5 +52,9 @@ PRODUCT_SHIPPING_API_LEVEL := 28
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.0-service.basic
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/amazon/sheldon/sheldon-vendor.mk)
