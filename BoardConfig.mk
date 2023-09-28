@@ -16,5 +16,12 @@ TARGET_CPU_VARIANT_RUNTIME := cortex-a53
 
 TARGET_USES_64_BIT_BINDER := true
 
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := sheldon
+TARGET_NO_BOOTLOADER := true
+
+# Platform
+TARGET_BOARD_PLATFORM := mt8695
+
 # Inherit the proprietary files
 include vendor/amazon/sheldon/BoardConfigVendor.mk
