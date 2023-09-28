@@ -55,5 +55,8 @@ TARGET_BOARD_PLATFORM := mt8695
 # Verified Boot
 BOARD_AVB_ENABLE := false
 
+# VNDK
+BOARD_VNDK_VERSION := current
+
 # Inherit the proprietary files
 include vendor/amazon/sheldon/BoardConfigVendor.mk
