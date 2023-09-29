@@ -98,3 +98,24 @@ vendor/lib/libnvram_platform.so
 vendor/lib/libnvram.so
 vendor/lib/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib/vendor.mediatek.hardware.nvram@1.1.so
+
+# Wi-Fi
+vendor/bin/hostapd_cli
+vendor/bin/hw/android.hardware.wifi@1.0-service-mediatek
+vendor/bin/hw/fireos.hardware.connectivity.networkpower@1.0-service
+vendor/bin/hw/hostapd
+vendor/bin/hw/wpa_supplicant
+vendor/etc/init/android.hardware.wifi@1.0-service-mediatek.rc
+vendor/etc/init/fireos.hardware.connectivity.networkpower@1.0-service.rc
+vendor/etc/init/hostapd.android.rc
+vendor/firmware/EEPROM_MT7663.bin
+vendor/firmware/TxPwrLimit_MT76x3.dat
+vendor/firmware/WIFI_RAM_CODE_MT7663.bin
+vendor/firmware/mt7663_patch_e2_hdr.bin
+vendor/firmware/pcm_allinone_lp3_1866.bin
+vendor/firmware/pcm_allinone_lp4_3200.bin
+vendor/firmware/pcm_allinone_lp4_3733.bin
+vendor/firmware/wifi.cfg
+vendor/firmware/woble_setting_7663.bin
+vendor/lib/fireos.hardware.connectivity@1.0.so
+vendor/lib/fireos.hardware.connectivity.networkpower@1.0.so
