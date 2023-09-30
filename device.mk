@@ -38,6 +38,10 @@ PRODUCT_PACKAGES += \
     libtinycompress \
     libtinyxml
 
+PRODUCT_PACKAGES += \
+    libmedia_helper-v28 \
+    libxml2-v28
+
 PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
     frameworks/av/services/audiopolicy/config/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \

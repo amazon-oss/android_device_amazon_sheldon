@@ -62,6 +62,10 @@ function blob_fixup() {
         vendor/bin/hw/hostapd)
             "${PATCHELF}" --add-needed "libhwbinder_shim.so" "${2}"
             ;;
+        vendor/lib/hw/audio.primary.mt8695.so)
+            "${PATCHELF}" --replace-needed "libmedia_helper.so" "libmedia_helper-v28.so" "${2}"
+            "${PATCHELF}" --replace-needed "libxml2.so" "libxml2-v28.so" "${2}"
+            ;;
         vendor/lib/hw/keystore.mt8695.so)
             "${PATCHELF}" --add-needed "libkeymaster_messages_shim.so" "${2}"
             ;;
