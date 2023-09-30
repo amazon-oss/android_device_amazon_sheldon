@@ -65,6 +65,9 @@ function blob_fixup() {
         vendor/lib/hw/keystore.mt8695.so)
             "${PATCHELF}" --add-needed "libkeymaster_messages_shim.so" "${2}"
             ;;
+        vendor/lib/hw/fireos.hardware.audio@4.0-impl.so)
+            "${PATCHELF}" --replace-needed "android.hardware.audio.common@4.0-util.so" "android.hardware.audio.common@4.0-util-v28.so" "${2}"
+            ;;
         vendor/lib/hw/libSoftGatekeeper.so)
             "${PATCHELF}" --add-needed "libgatekeeper_shim.so" "${2}"
             ;;
