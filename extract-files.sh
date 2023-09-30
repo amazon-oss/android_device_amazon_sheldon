@@ -78,6 +78,9 @@ function blob_fixup() {
         vendor/lib/libladder.so)
             "${PATCHELF}" --add-needed "libunwindstack_shim.so" "${2}"
             ;;
+        vendor/lib/libMtkOmxVdecEx.so)
+            "${PATCHELF}" --replace-needed "libui.so" "libui-v28.so" "${2}"
+            ;;
         vendor/lib/libnvram.so)
             "${PATCHELF}" --add-needed "libbase_shim.so" "${2}"
             ;;
