@@ -56,6 +56,7 @@ ro.vendor.mtk_in_house_tee_support=true
 
 # Media
 debug.stagefright.ccodec=0
+media.stagefright.thumbnail.prefer_hw_codecs=true
 ro.mtk_sec_video_path_support=1
 ro.vendor.mtk.omx.vdec.di=1
 ro.vendor.mtk_sec_video_path_support=1
