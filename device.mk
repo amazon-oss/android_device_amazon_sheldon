@@ -174,5 +174,8 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi.hostapd@1.0.vendor \
     android.hardware.wifi.hostapd@1.1.vendor
 
+PRODUCT_PACKAGES += \
+    libcompiler_rt-v29
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/amazon/sheldon/sheldon-vendor.mk)
