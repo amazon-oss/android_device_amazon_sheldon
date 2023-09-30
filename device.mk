@@ -79,6 +79,11 @@ PRODUCT_PACKAGES += \
     android.hardware.tv.cec@1.0-impl \
     android.hardware.tv.cec@1.0-service
 
+# Health
+PRODUCT_PACKAGES += \
+    android.hardware.health@2.1-service \
+    android.hardware.health@2.1-impl
+
 # IDME
 PRODUCT_PACKAGES += \
     fireos.hardware.idme@1.0.vendor
