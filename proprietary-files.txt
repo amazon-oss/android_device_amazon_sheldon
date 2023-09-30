@@ -119,3 +119,4 @@ vendor/firmware/wifi.cfg
 vendor/firmware/woble_setting_7663.bin
 vendor/lib/fireos.hardware.connectivity@1.0.so
 vendor/lib/fireos.hardware.connectivity.networkpower@1.0.so
+vendor/lib/libwifi-hal.so:vendor/lib/libwifi-hal-mtk.so
