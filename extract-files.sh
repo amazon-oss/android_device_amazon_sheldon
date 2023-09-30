@@ -59,6 +59,9 @@ function blob_fixup() {
         vendor/bin/hw/android.hardware.wifi@1.0-service-mediatek)
             "${PATCHELF}" --replace-needed "libwifi-hal.so" "libwifi-hal-mtk.so" "${2}"
             ;;
+        vendor/bin/hw/hostapd)
+            "${PATCHELF}" --add-needed "libhwbinder_shim.so" "${2}"
+            ;;
         vendor/lib/hw/keystore.mt8695.so)
             "${PATCHELF}" --add-needed "libkeymaster_messages_shim.so" "${2}"
             ;;
