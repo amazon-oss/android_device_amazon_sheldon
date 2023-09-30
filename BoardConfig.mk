@@ -91,6 +91,9 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt8695
 
+# Screen
+TARGET_SCREEN_DENSITY := 320
+
 # Verified Boot
 BOARD_AVB_ENABLE := false
 

@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# AAPT
+PRODUCT_AAPT_PREF_CONFIG := tvdpi
+
 # Audio
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
