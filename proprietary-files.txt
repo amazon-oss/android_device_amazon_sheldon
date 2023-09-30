@@ -39,6 +39,15 @@ vendor/lib/libmtkshifter_vendor.so
 vendor/lib/libopuscodec.so
 vendor/lib/libvendoraudiospdif.so
 
+# Bluetooth
+vendor/bin/btmac
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek
+vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc
+vendor/etc/init/btmac.rc
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so
+vendor/lib/libbluetooth_mtk.so
+vendor/lib/libbt-vendor.so
+
 # Display
 vendor/firmware/rgx.fw.signed
 vendor/lib/egl/libEGL_POWERVR_ROGUE.so
