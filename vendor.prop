@@ -50,6 +50,11 @@ tunnelmode.raw.apts.adjust=-80
 tunnelmode.pcm.apts.adjust=-70
 tunnelmode.bt.apts.adjust=-180
 
+# DRM
+drm.service.enabled=true
+ro.amzn_drm.pr3_file=/data/vendor/playready/AIVDrmStore
+ro.vendor.mtk_widevine_drm_l1_support=1
+
 # Keymaster
 ro.crypto.volume.filenames_mode=aes-256-cts
 ro.vendor.mtk_in_house_tee_support=true
