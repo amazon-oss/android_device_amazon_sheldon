@@ -78,6 +78,9 @@ PRODUCT_PACKAGES += \
     libdrmclearkeyplugin \
     libmockdrmcryptoplugin
 
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-lite-v28
+
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl \
