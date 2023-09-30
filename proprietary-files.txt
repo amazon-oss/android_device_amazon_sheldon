@@ -97,6 +97,19 @@ vendor/lib/libtz_uree.so
 vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 
+# Media
+vendor/lib/libvcodecdrv.so
+vendor/lib/libvcodec_oal.so
+vendor/lib/libvcodec_utility.so
+vendor/lib/libvdec_app.so
+
+# Media (OMX)
+vendor/lib/libfbm.so
+vendor/lib/libMtkOmxCore.so
+vendor/lib/libMtkOmxVdecEx.so
+vendor/lib/libMtkOmxVenc.so
+vendor/lib/libstagefrighthw.so
+
 # NVRAM
 vendor/bin/nvram_daemon
 vendor/etc/init/nvram_daemon.rc
