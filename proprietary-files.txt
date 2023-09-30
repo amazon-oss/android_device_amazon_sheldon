@@ -163,6 +163,17 @@ vendor/lib/libnvram.so
 vendor/lib/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib/vendor.mediatek.hardware.nvram@1.1.so
 
+# Thermal
+vendor/bin/hw/fireos.hardware.amazonthermal@1.0-service
+vendor/etc/init/fireos.hardware.amazonthermal@1.0-service.rc
+vendor/etc/.tp/.ht120.mtc
+vendor/etc/.tp/thermal.conf
+vendor/etc/.tp/thermal.off.conf
+vendor/etc/.tp/thermal.policy.conf
+vendor/lib/fireos.hardware.amazonthermal@1.0.so
+vendor/lib/hw/fireos.hardware.amazonthermal@1.0-impl.so
+vendor/lib/hw/thermal.mt8695.so
+
 # Wi-Fi - from maverick-user 7.0 PS7312 1271 amz-p,release-keys
 vendor/bin/hostapd_cli
 vendor/bin/hw/android.hardware.wifi@1.0-service-mediatek
