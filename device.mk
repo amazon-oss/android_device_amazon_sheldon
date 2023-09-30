@@ -128,6 +128,7 @@ PRODUCT_PACKAGES += \
 # Shims
 PRODUCT_PACKAGES += \
     libbase_shim \
+    libgatekeeper_shim \
     libkeymaster_messages_shim \
     libunwindstack_shim
 
