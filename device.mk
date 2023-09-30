@@ -125,6 +125,10 @@ PRODUCT_PACKAGES += \
     fstab.mt8695_ramdisk \
     ueventd.mt8695.rc
 
+# Shims
+PRODUCT_PACKAGES += \
+    libbase_shim
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 28
 
