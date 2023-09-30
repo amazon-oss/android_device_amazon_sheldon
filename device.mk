@@ -40,6 +40,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libmedia_helper-v28 \
+    libutils-v32 \
     libxml2-v28
 
 PRODUCT_COPY_FILES += \
