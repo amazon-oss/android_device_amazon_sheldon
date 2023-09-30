@@ -153,6 +153,12 @@ vendor/lib/vendor.mediatek.hardware.hdmi@1.0.so
 vendor/lib/vendor.mediatek.hardware.hdmi@1.1.so
 vendor/lib/vendor.mediatek.hardware.keymanage@1.0.so
 
+# IDME
+vendor/bin/hw/fireos.hardware.idme@1.0-service
+vendor/bin/idme
+vendor/etc/init/fireos.hardware.idme@1.0-service.rc
+vendor/lib/hw/fireos.hardware.idme@1.0-impl.so
+
 # Keymaster
 vendor/lib/hw/keystore.mt8695.so
 vendor/lib/libkmsetkey.so

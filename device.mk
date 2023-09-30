@@ -79,6 +79,10 @@ PRODUCT_PACKAGES += \
     android.hardware.tv.cec@1.0-impl \
     android.hardware.tv.cec@1.0-service
 
+# IDME
+PRODUCT_PACKAGES += \
+    fireos.hardware.idme@1.0.vendor
+
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-service \
