@@ -128,7 +128,8 @@ PRODUCT_PACKAGES += \
 # Shims
 PRODUCT_PACKAGES += \
     libbase_shim \
-    libkeymaster_messages_shim
+    libkeymaster_messages_shim \
+    libunwindstack_shim
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 28

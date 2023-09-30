@@ -62,6 +62,9 @@ function blob_fixup() {
         vendor/lib/hw/keystore.mt8695.so)
             "${PATCHELF}" --add-needed "libkeymaster_messages_shim.so" "${2}"
             ;;
+        vendor/lib/libladder.so)
+            "${PATCHELF}" --add-needed "libunwindstack_shim.so" "${2}"
+            ;;
         vendor/lib/libnvram.so)
             "${PATCHELF}" --add-needed "libbase_shim.so" "${2}"
             ;;
