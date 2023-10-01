@@ -36,7 +36,7 @@ on fs
 
     # Configure ZRAM
     write /proc/sys/vm/page-cluster 0
-    swapon_all /fstab.enableswap
+    swapon_all /vendor/etc/fstab.mt8695
 
 on late-fs
     # Mount RW partitions which need run fsck
