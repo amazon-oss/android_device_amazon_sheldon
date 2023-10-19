@@ -74,6 +74,9 @@ TARGET_BOOTANIMATION_HALF_RES := true
 # Camera
 PRODUCT_SUPPORTS_CAMERA := false
 
+# Characteristics
+PRODUCT_CHARACTERISTICS := tv
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-service \
