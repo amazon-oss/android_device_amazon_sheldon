@@ -14,6 +14,9 @@ $(call inherit-product, device/amazon/sheldon/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_mini_tv.mk)
 
+# Inherit GApps
+$(call inherit-product-if-exists, vendor/gapps_tv/arm/arm-vendor.mk)
+
 PRODUCT_NAME := lineage_sheldon
 PRODUCT_DEVICE := sheldon
 PRODUCT_MANUFACTURER := Amzn
