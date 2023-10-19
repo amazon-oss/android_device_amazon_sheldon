@@ -1,10 +1,6 @@
 # Audio
 audio.offload.min.duration.secs=1
 audio.offload.video=true
-media.audio.hrt_freq=13000
-ro.hardware.audio.speaker=proxy
-ro.hardware.audio.primary=proxy
-ro.hardware.audio.a2dp=proxy
 ro.vendor.mtk_audio_tuning_tool_ver=V2.2
 
 # Bluetooth
@@ -38,17 +34,6 @@ ro.amazon.sys.fbs-size=1920x1080
 ro.vendor.dpframework.not_support_yv12=1
 ro.vendor.mtk_pq_support=2
 ro.vendor.mtk_pq_color_mode=1
-
-# Dolby
-apts_tune.non_tunnel_pcm=-50
-apts_tune.non_tunnel_dlb=-60
-apts_tune.non_tunnel_bt=50
-persist.dolby.dma.proxy.disable=0
-persist.dolby.dma.devices.cm=1152
-persist.dolby.dma.devices.tm=1152
-tunnelmode.raw.apts.adjust=-80
-tunnelmode.pcm.apts.adjust=-70
-tunnelmode.bt.apts.adjust=-180
 
 # DRM
 drm.service.enabled=true

@@ -64,12 +64,6 @@
                 <mixPort name="hdmi_passthrough_tunnel" role="source" flags="AUDIO_OUTPUT_FLAG_DIRECT|AUDIO_OUTPUT_FLAG_HW_AV_SYNC">
                     <profile name="" />
                 </mixPort>
-                <mixPort name="primary_ms12" role="source" flags="AUDIO_OUTPUT_FLAG_DIRECT|AUDIO_OUTPUT_FLAG_COMPRESS_OFFLOAD|AUDIO_OUTPUT_FLAG_NON_BLOCKING">
-                    <profile name="" />
-                </mixPort>
-                <mixPort name="primary_ms12_hw_av_sync" role="source" flags="AUDIO_OUTPUT_FLAG_DIRECT|AUDIO_OUTPUT_FLAG_COMPRESS_OFFLOAD|AUDIO_OUTPUT_FLAG_HW_AV_SYNC|AUDIO_OUTPUT_FLAG_NON_BLOCKING">
-                    <profile name="" />
-                </mixPort>
                 <mixPort name="bt_sco_out" role="source" flags="AUDIO_OUTPUT_FLAG_PRIMARY">
                     <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
                         samplingRates="8000,16000" channelMasks="AUDIO_CHANNEL_OUT_MONO"/>
@@ -104,7 +98,7 @@
                 <route type="mix" sink="Speaker"
                        sources="primary_out"/>
                 <route type="mix" sink="HDMI-Out"
-                       sources="primary_out,hdmi_passthrough_direct,hdmi_hwsync_lpcm,hdmi_passthrough_tunnel,primary_ms12,primary_ms12_hw_av_sync"/>
+                       sources="primary_out,hdmi_passthrough_direct,hdmi_hwsync_lpcm,hdmi_passthrough_tunnel"/>
                 <route type="mix" sink="BT-SCO-Out"
                        sources="bt_sco_out"/>
                 <route type="mix" sink="BT-SCO-Headset-Out"

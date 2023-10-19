@@ -22,6 +22,7 @@ vendor/lib/hw/fireos.hardware.audio@4.0-impl.so
 vendor/lib/hw/fireos.hardware.avsync@1.0-impl.so
 vendor/lib/libaudiocomponentengine_vendor.so
 vendor/lib/libaudiohalopen_vendor.so
+vendor/lib/libaudiohwsyncbridge.so
 vendor/lib/libaudiomixer.so
 vendor/lib/libaudioresampler.so
 vendor/lib/libavsync.so
@@ -77,14 +78,6 @@ vendor/lib/libmtkbufferqueue.so
 vendor/lib/libsrv_um.so
 vendor/lib/libtqvalidate.so
 vendor/lib/libusc.so
-
-# Dolby
-vendor/lib/hw/audio.primary.proxy.so
-vendor/lib/libaudiohwsyncbridge.so
-vendor/lib/libeac3dec.so
-vendor/lib/libms12.so
-vendor/lib/libstagefrightdolby.so
-vendor/lib/libstagefright_soft_eac3dec.so
 
 # DRM
 vendor/bin/amzn_dha_hmac
