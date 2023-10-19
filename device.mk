@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Android Go optimisations
+$(call inherit-product, device/amazon/sheldon/go_opt.mk)
+
 # AAPT
 PRODUCT_AAPT_PREF_CONFIG := tvdpi
 
