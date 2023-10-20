@@ -7,6 +7,9 @@
 # Android Go optimisations
 $(call inherit-product, device/amazon/sheldon/go_opt.mk)
 
+# Dalvik
+$(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
+
 # AAPT
 PRODUCT_AAPT_PREF_CONFIG := tvdpi
 
