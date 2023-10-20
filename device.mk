@@ -165,6 +165,10 @@ PRODUCT_PACKAGES += \
     NetflixConfig \
     NetflixConfigOverlay
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/nrdp/netflix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/netflix.xml \
+    $(LOCAL_PATH)/configs/nrdp/nrdp.modelgroup.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/nrdp.modelgroup.xml
+
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
