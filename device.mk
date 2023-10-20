@@ -163,10 +163,9 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
-
 PRODUCT_PACKAGES += \
+    FrameworksResOverlaySheldon \
+    SimpleDeviceConfigOverlaySheldon \
     TetheringResOverlaySheldon \
     WifiResOverlaySheldon
 
