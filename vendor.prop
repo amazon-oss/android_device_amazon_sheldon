@@ -78,6 +78,11 @@ ro.vendor.mtk.omx.vdec.di=1
 ro.vendor.mtk_sec_video_path_support=1
 vendor.mtk.vdec.waitkeyframeforplay=1
 
+# Netflix
+ro.vendor.nrdp.audio.mixer.buffersize=2048
+ro.vendor.nrdp.modelgroup=FIRETVSTICK2020
+ro.vendor.nrdp.validation=ninja_7
+
 # Watchdog
 ro.hw_timeout_multiplier=6
 
