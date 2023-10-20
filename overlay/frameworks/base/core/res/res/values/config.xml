@@ -15,6 +15,10 @@
     <!-- Whether UI for multi user should be shown -->
     <bool name="config_enableMultiUserUI">true</bool>
 
+    <!-- Determines whether recent tasks are provided to the user. Default device has recents
+         property. If this is false, then the following recents config flags are ignored. -->
+    <bool name="config_hasRecents">false</bool>
+
     <!-- Control the behavior when the user long presses the power button.
             0 - Nothing
             1 - Global actions menu
