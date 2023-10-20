@@ -22,6 +22,9 @@
     <!-- Whether UI for multi user should be shown -->
     <bool name="config_enableMultiUserUI">true</bool>
 
+    <!-- Determines whether the shell features all run on another thread. -->
+    <bool name="config_enableShellMainThread">true</bool>
+
     <!-- Determines whether recent tasks are provided to the user. Default device has recents
          property. If this is false, then the following recents config flags are ignored. -->
     <bool name="config_hasRecents">false</bool>
