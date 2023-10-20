@@ -76,3 +76,6 @@ vendor.mtk.vdec.waitkeyframeforplay=1
 # Wi-Fi
 wifi.interface=wlan0
 persist.wifi.rssi.thresholds=-85,-80,-73,-69
+
+# Zygote
+zygote.critical_window.minute=10
