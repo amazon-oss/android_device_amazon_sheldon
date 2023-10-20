@@ -78,6 +78,9 @@ ro.vendor.mtk.omx.vdec.di=1
 ro.vendor.mtk_sec_video_path_support=1
 vendor.mtk.vdec.waitkeyframeforplay=1
 
+# Watchdog
+ro.hw_timeout_multiplier=6
+
 # Wi-Fi
 wifi.interface=wlan0
 persist.wifi.rssi.thresholds=-85,-80,-73,-69
