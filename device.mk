@@ -160,6 +160,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libui-v28
 
+# Netflix
+PRODUCT_PACKAGES += \
+    NetflixConfig \
+    NetflixConfigOverlay
+
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
