@@ -69,6 +69,9 @@ TARGET_KERNEL_CONFIG := sheldon_defconfig
 TARGET_KERNEL_CLANG_COMPILE := false
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 
+# Malloc
+MALLOC_SVELTE := true
+
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072                   # 2048      * 64   (none)
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216         # 16384     * 1024 (mmcblk0p4)
