@@ -38,6 +38,9 @@
     <!-- True if the device supports split screen as a form of multi-window. -->
     <bool name="config_supportsSplitScreenMultiWindow">false</bool>
 
+    <!-- Feature flag to store TaskSnapshot in 16 bit pixel format to save memory. -->
+    <bool name="config_use16BitTaskSnapshotPixelFormat">true</bool>
+
     <!-- the 5th element "resore-time" indicates the number of milliseconds to delay
         before automatically restore the default connection.  Set -1 if the connection
          does not require auto-restore. -->
