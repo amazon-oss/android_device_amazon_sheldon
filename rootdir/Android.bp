@@ -19,6 +19,13 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "init.mt8695.power.rc",
+    src: "etc/init.mt8695.power.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "init.mt8695.rc",
     src: "etc/init.mt8695.rc",
     sub_dir: "init/hw",

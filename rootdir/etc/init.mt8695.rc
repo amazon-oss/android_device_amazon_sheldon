@@ -1,5 +1,6 @@
 import /vendor/etc/init/hw/init.connectivity.rc
 import /vendor/etc/init/hw/init.mt8695.usb.rc
+import /vendor/etc/init/hw/init.mt8695.power.rc
 import /vendor/etc/init/hw/init.project.rc
 import /vendor/etc/init/hw/init.nvdata.rc
 
