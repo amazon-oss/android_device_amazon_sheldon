@@ -268,12 +268,12 @@
     <hal format="hidl">
         <name>fireos.hardware.idme</name>
         <transport>hwbinder</transport>
-        <version>1.0</version>
+        <version>1.1</version>
         <interface>
             <name>IIdme</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.0::IIdme/default</fqname>
+        <fqname>@1.1::IIdme/default</fqname>
     </hal>
     <hal format="hidl">
         <name>fireos.hardware.mediametrics</name>

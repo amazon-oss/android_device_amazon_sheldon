@@ -1,4 +1,4 @@
-# Unpinned blobs from sheldonp-user 7.0 PS7242 3515 amz-p,release-keys
+# Unpinned blobs from sheldon-user 9 PS7669.4007N 0029696698112 amz-p,release-keys
 
 # Audio
 system/lib/fireos.hardware.avsync@1.0.so
@@ -147,10 +147,13 @@ vendor/lib/vendor.mediatek.hardware.hdmi@1.1.so
 vendor/lib/vendor.mediatek.hardware.keymanage@1.0.so
 
 # IDME
-vendor/bin/hw/fireos.hardware.idme@1.0-service
+vendor/bin/hw/fireos.hardware.idme@1.1-service
 vendor/bin/idme
-vendor/etc/init/fireos.hardware.idme@1.0-service.rc
+vendor/etc/init/fireos.hardware.idme@1.1-service.rc
+vendor/lib/fireos.hardware.idme@1.0.so
 vendor/lib/hw/fireos.hardware.idme@1.0-impl.so
+vendor/lib/fireos.hardware.idme@1.1.so
+vendor/lib/hw/fireos.hardware.idme@1.1-impl.so
 
 # Keymaster
 vendor/lib/hw/keystore.mt8695.so
@@ -191,6 +194,7 @@ vendor/etc/.tp/thermal.conf
 vendor/etc/.tp/thermal.off.conf
 vendor/etc/.tp/thermal.policy.conf
 vendor/lib/fireos.hardware.amazonthermal@1.0.so
+vendor/lib/fireos.hardware.amazonthermal@1.1.so
 vendor/lib/hw/fireos.hardware.amazonthermal@1.0-impl.so
 vendor/lib/hw/thermal.mt8695.so
 
