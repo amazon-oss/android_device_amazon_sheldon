@@ -198,12 +198,11 @@ vendor/lib/fireos.hardware.amazonthermal@1.1.so
 vendor/lib/hw/fireos.hardware.amazonthermal@1.0-impl.so
 vendor/lib/hw/thermal.mt8695.so
 
-# Wi-Fi - from maverick-user 7.0 PS7312 1271 amz-p,release-keys
+# Wi-Fi
 vendor/bin/hostapd_cli
 vendor/bin/hw/android.hardware.wifi@1.0-service-mediatek
 vendor/bin/hw/fireos.hardware.connectivity.networkpower@1.0-service
 vendor/bin/hw/hostapd
-vendor/bin/hw/wpa_supplicant|6fc8170c0469764a0860189a79aff9a3dde0c54e
 vendor/etc/init/android.hardware.wifi@1.0-service-mediatek.rc
 vendor/etc/init/fireos.hardware.connectivity.networkpower@1.0-service.rc
 vendor/etc/init/hostapd.android.rc
@@ -219,3 +218,6 @@ vendor/firmware/woble_setting_7663.bin
 vendor/lib/fireos.hardware.connectivity@1.0.so
 vendor/lib/fireos.hardware.connectivity.networkpower@1.0.so
 vendor/lib/libwifi-hal.so:vendor/lib/libwifi-hal-mtk.so
+
+# Wi-Fi (supplicant) - from maverick-user 7.0 PS7312 1271 amz-p,release-keys
+vendor/bin/hw/wpa_supplicant|e197186f5c7be6dfa3c1d4230fdbc764cbc50efe
