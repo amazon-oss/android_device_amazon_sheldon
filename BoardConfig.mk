@@ -68,7 +68,7 @@ KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-linux-andr
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_HEADER_ARCH := arm
 TARGET_KERNEL_SOURCE := kernel/amazon/mt8695
-TARGET_KERNEL_CONFIG := sheldon_defconfig
+TARGET_KERNEL_CONFIG := mt8695_defconfig amazon/$(PRODUCT_DEVICE).config
 TARGET_KERNEL_CLANG_COMPILE := false
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 
