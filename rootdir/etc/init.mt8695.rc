@@ -497,6 +497,10 @@ on boot
     # Set rx windows to 1.28M for 4k applications
     write /proc/sys/net/core/rmem_max 1310720
 
+    # ADB over network
+    setprop service.adb.tcp.port 5555
+    start adbd
+
 # UART
 on property:persist.vendor.uartconsole.enable=1
     write /proc/mtprintk 1
