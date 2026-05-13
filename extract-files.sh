@@ -85,7 +85,8 @@ function blob_fixup() {
             "${PATCHELF}" --add-needed "libgatekeeper_shim.so" "${2}"
             ;;
         vendor/lib/libIMGegl.so)
-            "${SIGSCAN}" -p "63 13 e0 4f f4 00 72" -P "63 13 e0 4f f0 00 02" -f "${2}"
+            "${SIGSCAN}" -p "63 13 e0 4f f4 00 72" -P "63 13 e0 4f f0 01 02" -f "${2}"
+            "${SIGSCAN}" -p "e0 4f f4 00 70" -P "e0 4f f0 01 00" -f "${2}"
             ;;
         vendor/lib/libladder.so)
             "${PATCHELF}" --add-needed "libunwindstack_shim.so" "${2}"
