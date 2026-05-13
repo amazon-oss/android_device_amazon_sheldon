@@ -38,6 +38,7 @@ vendor/lib/libmtkaudiospdif.so
 vendor/lib/libmtklimiter_vendor.so
 vendor/lib/libmtkshifter_vendor.so
 vendor/lib/libopuscodec.so
+vendor/lib/libufwriter.so 
 vendor/lib/libvendoraudiospdif.so
 
 # Bluetooth
