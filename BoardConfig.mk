@@ -45,6 +45,9 @@ BOARD_MKBOOTIMG_ARGS += --board ""
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_PREBUILT_ELF_FILES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+SOONG_CONFIG_NAMESPACES += surfaceflinger_workarounds
+SOONG_CONFIG_surfaceflinger_workarounds += force_hwc_buffer_resubmit_video
+SOONG_CONFIG_surfaceflinger_workarounds_force_hwc_buffer_resubmit_video := true
 
 # Display
 TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x00000200
