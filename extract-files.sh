@@ -73,6 +73,7 @@ function blob_fixup() {
         vendor/lib/hw/hwcomposer.mt8695.so)
             "${SIGSCAN}" -p "2d e9 f0 41 92 b0 05 46" -P "00 20 70 47 92 b0 05 46" -f "${2}"
             "${SIGSCAN}" -p "41 46 90 47 d9 f8 40 0a" -P "41 46 00 bf d9 f8 40 0a" -f "${2}"
+            "${SIGSCAN}" -p "9d f8 8a 60" -P "01 26 00 bf" -f "${2}"
             ;;
         vendor/lib/hw/keystore.mt8695.so)
             "${PATCHELF}" --add-needed "libkeymaster_messages_shim.so" "${2}"
