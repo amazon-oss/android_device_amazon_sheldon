@@ -21,7 +21,7 @@ key 208   MEDIA_FAST_FORWARD
 key 164   MEDIA_PLAY_PAUSE
 
 key 362   TV
-key 748   F9
+key 748   ALL_APPS
 
 # App Keys
 key 744   BUTTON_1

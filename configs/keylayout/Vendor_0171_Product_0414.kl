@@ -4,7 +4,7 @@
 #
 # This file is based on Wibur_remote_specification_V0.2
 
-key 116   POWER
+key 116   TV_POWER
 key 217   SEARCH
 
 key 96    DPAD_CENTER
@@ -29,7 +29,7 @@ key 362   TV
 key 402   CHANNEL_UP
 key 403   CHANNEL_DOWN
 
-key 748   RECENTS
+key 748   ALL_APPS
 key 249   SETTINGS
 
 # App Keys

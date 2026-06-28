@@ -4,7 +4,7 @@
 #
 # This file is based on Penny remote_specification
 
-key 116   POWER
+key 116   TV_POWER
 key 217   SEARCH
 
 key 96    DPAD_CENTER
