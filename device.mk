@@ -133,6 +133,9 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-service \
     android.hardware.health@2.1-impl
 
+# Keylayouts
+include $(LOCAL_PATH)/keylayouts.mk
+
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-service \
