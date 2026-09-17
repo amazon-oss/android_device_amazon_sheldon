@@ -99,6 +99,7 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt8695
+TARGET_OTA_ASSERT_DEVICE := sheldon,sheldonp
 
 # Screen
 TARGET_SCREEN_DENSITY := 320
