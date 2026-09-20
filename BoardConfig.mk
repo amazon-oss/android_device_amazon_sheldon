@@ -48,6 +48,8 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 SOONG_CONFIG_NAMESPACES += surfaceflinger_workarounds
 SOONG_CONFIG_surfaceflinger_workarounds += force_hwc_buffer_resubmit_video
 SOONG_CONFIG_surfaceflinger_workarounds_force_hwc_buffer_resubmit_video := true
+SOONG_CONFIG_surfaceflinger_workarounds += force_hwc_layer_recreate_protected_to_1x1
+SOONG_CONFIG_surfaceflinger_workarounds_force_hwc_layer_recreate_protected_to_1x1 := true
 
 # Display
 TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x00000200
