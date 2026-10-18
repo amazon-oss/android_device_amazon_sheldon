@@ -5,6 +5,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/Vendor_0171_Product_0415.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0171_Product_0415.kl \
     $(LOCAL_PATH)/configs/keylayout/Vendor_0171_Product_0418.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0171_Product_0418.kl \
     $(LOCAL_PATH)/configs/keylayout/Vendor_0171_Product_041f.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0171_Product_041f.kl \
+    $(LOCAL_PATH)/configs/keylayout/Vendor_0171_Product_042f.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0171_Product_042f.kl \
     $(LOCAL_PATH)/configs/keylayout/Vendor_0171_Product_041e.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0171_Product_041e.kl \
     $(LOCAL_PATH)/configs/keylayout/Vendor_0171_Product_041e.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0171_Product_0420.kl \
     $(LOCAL_PATH)/configs/keylayout/Vendor_0171_Product_041e.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0171_Product_0421.kl \

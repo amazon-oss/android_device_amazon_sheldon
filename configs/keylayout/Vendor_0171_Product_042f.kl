@@ -1,0 +1,44 @@
+# Key layout for the Amazon Fire TV remote (HID product id 0x042F, "AR")
+# used with the Fire TV Stick Lite / 3rd Gen (sheldon / sheldonp).
+#
+# The remote reports its select key as HID usage 0x58 (KEY_KPENTER). The generic
+# key layout maps key 96 to NUMPAD_ENTER, and Android only opens the soft
+# keyboard for DPAD_CENTER / ENTER (TextView.onKeyUp), so text fields - search,
+# Wi-Fi password, logins - could not be activated with the OK button of the
+# remote. With DPAD_CENTER the on-screen keyboard appears as expected.
+#
+# Everything else matches the other Amazon BLE remote layouts in this directory
+# (see Vendor_0171_Product_0412/0415/041e/041f.kl); the key set below is the
+# union of those, so no key of this remote is left unmapped.
+
+key 116   TV_POWER
+key 217   SEARCH
+
+key 96    DPAD_CENTER
+key 103   DPAD_UP
+key 105   DPAD_LEFT
+key 106   DPAD_RIGHT
+key 108   DPAD_DOWN
+
+key 172   HOME
+key 158   BACK
+key 139   MENU
+
+key 113   VOLUME_MUTE
+key 114   VOLUME_DOWN
+key 115   VOLUME_UP
+
+key 168   MEDIA_REWIND
+key 208   MEDIA_FAST_FORWARD
+key 164   MEDIA_PLAY_PAUSE
+
+key 362   TV
+
+# App keys (Prime Video, Netflix, Apps, Amazon Music).
+# Note: on product 0x042F these four buttons are delivered as HID consumer
+# reports (report id 0xEF) and never reach the input stack, so the key codes
+# below only apply if a firmware revision maps them to real key events.
+key 744   BUTTON_1    WAKE
+key 745   BUTTON_2    WAKE
+key 746   ALL_APPS    WAKE
+key 747   BUTTON_5    WAKE
